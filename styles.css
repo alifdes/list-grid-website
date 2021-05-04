@@ -1,0 +1,207 @@
+body, html {
+  height: 100%;
+  margin: 0;
+
+
+	 box-sizing: border-box;
+}
+
+ body{
+  /* The image used */
+  background-image: url("https://thumbs.dreamstime.com/z/vector-blue-ice-background-eps-rgb-global-colors-78785616.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header {
+background-image: linear-gradient(#33FFFD,#333EFF);
+ transition: 0.2s;
+
+  top: 0;
+width:99%;
+}
+.menu {
+padding: 0px 5px;
+  margin-top: 5px;
+width:100%;
+background-image: linear-gradient(#33FFFD,#333EFF);
+  color: black;
+  font-size: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
+  background-color: #e9e9e9;
+  height:100%;
+}
+
+.dropdown  {
+  position: relative;
+  display: inline-block;
+background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: blue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover 
+{background-color: lightBlue;
+  color: black;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .menu {
+  background-color:blue ;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:blue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: lightBlue;
+  color: black;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+
+
+input[type=text],select {
+  padding: 0px 5px;
+  margin-top: 0px;
+  font-size: 15px;
+
+}
+
+
+/* Style the "active" element to highlight the current page */
+a.active {
+  background-color: #2196F3;
+  color: white;
+}
+.search-container, .cart,.login{
+ float: right;
+
+  margin-top: 0px;
+  margin-right: 26px;
+  background: #ddd;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+
+
+
+.mySlides {display:none;align:center;}
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about{color:blue;
+height:20%;
+ 
+	 box-sizing: border-box;
+  
+  text-align: center;
+   background-image: url("https://cache.desktopnexus.com/cropped-wallpapers/991/991193-1536x864-[DesktopNexus.com].jpg?st=f0_5GtUWV0bquDlWOkZxnw&e=1596304629");
+  color: white;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  color: #000;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.fliter {
+	margin-top:10px;
+  background-color: white;
+
+  width: 100%;
+  padding: 50px 25;
+  transition: all 0.5s ease;
+  color: black;
+  font-size: 20px;
+    display: table;
+  
+}
+
+
+ 

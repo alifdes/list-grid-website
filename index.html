@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="grid.css">
+<link rel="stylesheet" href="list.css">
+	
+</head>
+<body>
+<div id="header">
+<h1 style="font-size:30px;0px;margin:0px;">
+<img src="logo.jpg" style="width:80px;height:70px;border:2px solid DodgerBlue;background-color:DodgerBlue;">ALI FASHION HOUSE </h1>
+ <i style="padding:0px;color:pink;margin:0px;">Place were you get dream look.</i>
+
+<br><br>
+<div class="menu">
+<a class="active menu">HOME</a>
+<div class="dropdown">  
+ <button  class="menu" >WOMEN</button>
+  <div class="dropdown-content">
+  <a href="#">WOMEN CLOTHS</a>
+  <a href="#">WOMEN ACCESSORIES</a>
+  <a href="#">WOMEN FOOTHWEAR</a>
+</div>
+</div>
+<div class="dropdown">
+    <button  class="menu">MEN</button>
+    <div class="dropdown-content">
+    <a href="#">MEN CLOTHS</a>
+    <a href="#"> MEN ACCESSORIES</a>
+    <a href="#">MEN FOOTHWEAR</a>
+    </div>
+</div>
+
+<a href="cart.html">
+<img class="cart" border="0" src="cart.png" width="30" height="30">
+</a>
+<a href="f.html" target="_">
+<img class="login" border="0" src="login.jpg" width="30" height="30">
+</a>
+
+ <div class="search-container" width="30" height="40">
+    <form action="">
+      <input type="text" placeholder="Search.." name="search" width="30" height="40">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+   </div></div></div>
+   
+
+<center>
+<div class="w3-content w3-section" style="max-width:700px">
+  <img class="mySlides" src="sildeshow.gif" style="width:700px;height:100%">
+  <img class="mySlides" src="ss2.jpg" style="width:700px;height:100%">
+
+    <img class="mySlides" src="sale.jpg" style="width:700px;height:100%">
+</div>
+
+<div class="fliter">
+<div class="CATEGORIES">
+<label>CATEGORIES:</label>
+<select name="CATEGORIES" id="CATEGORIES">
+<option value="0">All</option>
+<option value="1">Men</option>
+<option value="2">Women</option>
+</select>
+</div><br>
+<div class="Price">
+<label>Price:</label>
+<select name="price" id="price">
+<option value="11">All</option>
+<option value="12">100-1000</option>
+<option value="13">1000-above</option>
+</select></div><br>
+
+<div class="sort">
+<label>Sort:</label>
+<select name="sort" id="sort">
+<option value="21">All</option>
+<option value="22">Popularity</option>
+<option value="23">New</option>
+</select>
+</div>
+<br>
+
+
+	<div class="links">
+		<ul>
+			<li data-view="list-view" class="li-list active tooltip">
+			<i class="fas fa-th-list"><span class="tooltiptext">List View</span></i>
+			</li>
+			<li data-view="grid-view" class="li-grid tooltip">
+			<i class="fas fa-th-large"><span class="tooltiptext">Grid View</span></i>
+			</li>
+		</ul>
+	</div>
+	</div><div class="view">
+	<div class="view_main">
+		<div class="view_wrap list-view " style="display: block;">
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="bb1.webp"" alt="Men Brown Solid Leather Belt">
+				</div>
+				<div class="vi_right">
+					<p class="title">Levis</p>
+					<p class="content">Men Brown Solid Leather Belt<br><b>Rs.699</b></p>
+					<div class="btn">Add to Cart</div>
+				</div>
+			</div>
+			
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="bkurta.webp" alt="Men Blue & White Printed Straight Kurta">
+				</div>
+				<div class="vi_right">
+					<p class="title">See Designs</p>
+					<p class="content">Men Blue & White Printed Straight Kurta<br><b>Rs.699</b></p>
+					<div class="btn">Add to Cart</div>
+				</div>
+			</div>
+			
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="gw1.webp" alt="Premium Women Silver-Toned Dial Watch DK11138-2">
+				</div>
+				<div class="vi_right">
+					<p class="title">Daniel Klein</p>
+					<p class="content">Premium Women Silver-Toned Dial Watch DK11138-2<br><b>Rs.2020</b></p>
+					<div class="btn">Add to Cart</div>
+				</div>
+			</div>
+			
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="kurt2.webp" alt="Women Green & Golden Block Print Kurta with Palazzos">
+				</div>
+				<div class="vi_right">
+					<p class="title">Libas</p>
+					<p class="content">Women Green & Golden Block Print Kurta with Palazzos<br><b>Rs.934</b></p>
+					<div class="btn">Add to Cart</div>
+				</div>
+			</div>
+			
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="bp3.webp" alt="Men Blue Skinny Fit Mid-Rise Clean Look Stretchable Cropped Jeans">
+				</div>
+				<div class="vi_right">
+					<p class="title">HERE & NOW</p>
+					<p class="content">Men Blue Skinny Fit Mid-Rise Clean Look Stretchable Cropped Jeans<br><b>Rs.1200</b></p>
+					<div class="btn">Add to Cart</div>
+				</div>
+			</div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="gd1.webp" alt="Black Floral Print Flared Maxi Dress with a Belt">
+				</div>
+				<div class="vi_right">
+					<p class="title">Tokyo Talkies</p>
+					<p class="content">Black Floral Print Flared Maxi Dress with a Belt<br><b>Rs.899</b></p>
+					<div class="btn">Add to Cart</div>
+				</div>
+			</div>
+			
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="mask.webp" alt="Unisex Pack of 3 Protekt-X Reusable 4-Layer Face Masks">
+				</div>
+				<div class="vi_right">
+					<p class="title">HRX by Hrithik Roshan</p>
+					<p class="content">Unisex Pack of 3 Protekt-X Reusable 4-Layer Face Masks<br><b>Rs.479</b></p>
+					<div class="btn">Add to Cart</div>
+				</div>
+			</div>
+			
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="bt3.webp" alt="Men Yellow Printed Round Neck T-Shirt">
+				</div>
+				<div class="vi_right">
+					<p class="title">HRX by Hrithik Roshan</p>
+					<p class="content">Men Yellow Printed Round Neck T-Shirt<br><b>Rs.699</b></p>
+					<div class="btn">Add to Cart</div>
+				</div>
+			</div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="kurta1.webp" alt="Women Lime Green & Blue Printed Kurta with Palazzos & Dupatta">
+				</div>
+				<div class="vi_right">
+					<p class="title">Libas</p>
+					<p class="content">Women Lime Green & Blue Printed Kurta with Palazzos & Dupatta<br><b>Rs.934</b></p>
+					<div class="btn">Add to Cart</div>
+				</div>
+			</div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img src="gt3.webp" alt="Women Pink & White Striped Shirt Style Top">
+				</div>
+				<div class="vi_right">
+					<p class="title">Levis</p>
+					<p class="content">Women Pink & White Striped Shirt Style Top<br><b>Rs.769</b></p>
+					<div class="btn">Add to Cart</div>
+				</div>
+			</div>
+
+		</div>
+		</div></div></div>
+		</div>
+		<div class="grid-view" style="display: none;">
+					<section class="section">
+    <div class="wrapper">
+        <div class="container">
+            <a class="project" href="#">
+                <figure>
+                     <img src="bb1.webp"" alt="Men Brown Solid Leather Belt">
+                    <figcaption>
+                        <div>
+                            <h6><u>Levis</u><br>Men Brown Solid Leather Belt<br><b>Rs.699</b></h6>
+                            <p class="cta">Add to Cart</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+            
+             <a class="project" href="#">
+                <figure>
+                    <img src="gw1.webp" alt="Premium Women Silver-Toned Dial Watch DK11138-2">
+                    <figcaption>
+                        <div>
+                            <h6><u>Daniel Klein</u><br>Premium Women Silver-Toned Dial Watch DK11138-2<br><b>Rs.2020</b></h6>
+                            <p class="cta">Add to Cart</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+             <a class="project" href="#">
+                <figure>
+                    <img src="kurt2.webp" alt="Women Green & Golden Block Print Kurta with Palazzos">
+                    <figcaption>
+                        <div>
+                            <h6><u>Libas</u><br>Women Green & Golden Block Print Kurta with Palazzos<br><b>Rs.934</b></h6>
+                            <p class="cta">Add to Cart</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+            <a class="project" href="#">
+                <figure>
+                    <img src="bkurta.webp" alt="Men Blue & White Printed Straight Kurta">
+                    <figcaption>
+                        <div>
+                            <h6><u>See Designs</u><br>Men Blue & White Printed Straight Kurta<br><b>Rs.759</b></h6>
+                            <p class="cta">Add to Cart</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+			<a class="project" href="#">
+                <figure>
+                    <img src="kurta1.webp" alt="Women Lime Green & Blue Printed Kurta with Palazzos & Dupatta">
+                    <figcaption>
+                        <div>
+                            <h6><u>Libas</u><br>Women Lime Green & Blue Printed Kurta with Palazzos & Dupatta<br><b>Rs.934</b></h6>
+                            <p class="cta">Add to Cart</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+            <a class="project" href="#">
+                <figure>
+                    <img src="bp3.webp" alt="Men Blue Skinny Fit Mid-Rise Clean Look Stretchable Cropped Jeans">
+                    <figcaption>
+                        <div>
+                            <h6><u>HERE & NOW</u><br>Men Blue Skinny Fit Mid-Rise Clean Look Stretchable Cropped Jeans<br><b>Rs.1200</b></h6>
+                            <p class="cta">Add to Cart</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+            <a class="project" href="#">
+                <figure>
+                    <img src="gd1.webp" alt="Black Floral Print Flared Maxi Dress with a Belt">
+                    <figcaption>
+                        <div>
+                            <h6><u>Tokyo Talkies</u><br>Black Floral Print Flared Maxi Dress with a Belt<br><b>Rs.899</b></h6>
+                            <p class="cta">Add to Cart</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+			<a class="project" href="#">
+                <figure>
+                    <img src="mask.webp" alt="Unisex Pack of 3 Protekt-X Reusable 4-Layer Face Masks">
+                    <figcaption>
+                        <div>
+                            <h6><u>HRX by Hrithik Roshan</u><br>Unisex Pack of 3 Protekt-X Reusable 4-Layer Face Masks<br><b>Rs.479</b></h6>
+                            <p class="cta">Add to Cart</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+			<a class="project" href="#">
+                <figure>
+                    <img src="bt3.webp" alt="Men Yellow Printed Round Neck T-Shirt" >
+                    <figcaption>
+                        <div>
+                            <h6><u>HRX by Hrithik Roshan</u> <br>Men Yellow Printed Round Neck T-Shirt<br><b>Rs.699</b></h6>
+                            <p class="cta">Add to Cart</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+    </div>
+</section>
+
+		</div>
+	</div>
+
+	
+<script src="scripts.js"></script>
+
+<div class="about">
+  <h1>About Us </h1>
+  
+ <center> <p>"Fashion is part of the daily air and it changes all the time, with all the events. <br>You can even see the approaching of a revolution in clothes.
+ <br> You can see and feel everything in clothes."</p></center></div>
+ </div>
+
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+
+
+</script>
+</body>
+</html>
